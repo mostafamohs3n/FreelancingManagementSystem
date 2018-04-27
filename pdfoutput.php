@@ -1,0 +1,14 @@
+<?php
+sendPDF(
+			$Config['WebsiteName'],
+			'180426021055download.jpg',
+			$user->getEmail(),
+			$user->getName(),
+			$user->getDateOfBirth(),
+			$user->getCountry(),
+			$jobDesc[2],
+			$jobDesc[3],
+			$jobDesc[4],
+			$jobDesc[5]
+		);
+?>
