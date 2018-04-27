@@ -1,0 +1,744 @@
+/*
+	home.php
+*/
+
+body{
+	
+*/}
+.overlay{
+	background: rgba(2,2,2,0.7);
+	width: 100%;
+	min-height: 100%;
+}
+nav{
+	
+	margin-top: 20px;
+	border:none;
+	box-shadow: none;
+	background: #fff;
+	
+}
+
+nav a{
+	color:#039be5;	
+}
+
+nav ul a{
+	color:#039be5;	
+}
+
+a{
+	color:#039be5;	
+}
+ 
+.skitter{
+	margin-top: -20px;
+	width: 1510px !important;
+	max-width: 1510px !important; 
+	height: 570px !important;
+	max-height: 570px !important;
+}
+
+.skitter a{
+	width: 1510px !important;
+	max-width: 1510px !important;
+	height: 570px !important;
+	max-height: 570px !important; 
+}
+
+.skitter a img{
+	width: 1510px !important;
+	max-width: 1510px !important;
+	height: 570px !important;
+	max-height: 570px !important; 
+}
+
+
+
+
+.how-work{
+	margin-top: 40px;
+}
+
+.how-work a{
+	background: none;
+    width: 200px;
+    border: 3px solid #1abc9c;
+    margin-top: 75px;
+    height: 44px;
+    color: #aee5f6;
+    font-weight: 500;
+    font-size: 20px;
+    border-color: rgba(108, 207, 239, .55);
+    border-radius: 5px;
+    font-family: Roboto;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+
+.how-work p{
+	line-height: 1.6;
+	font-size: 16px;
+}
+
+.specail-head{
+	position: relative;
+    margin-bottom: 25px;
+}
+
+.specail-head:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 0px;
+    width: 37px;
+    border-bottom: 2px solid #6ccfef;
+}
+
+.navbar-brand{
+	font-size: 24px;
+}
+.navbar-brand span{
+	font-weight: bold;
+	color: #6ccfef;
+	font-size: 29px;
+	margin-right: 3px;
+}
+
+
+
+.data{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.data img{
+	width: 60%;
+    height: 400px;
+    float: right;
+    margin-right: -126px;
+    margin-top: -46px;
+    
+}
+
+.data .data-text{
+	float: left;
+	width: 50%;
+}
+
+
+
+
+
+
+.data .data-text i{
+	font-size: 30px;
+    margin-right: 20px;
+    color: #080;
+}
+
+
+.data .data-text span{
+	font-size: 20px;
+    
+}
+
+.testmoinal{
+	overflow: hidden;
+}
+
+.testmoinal h3{
+	margin-bottom: 40px;
+}
+
+.testmoinal img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.testmoinal span{
+	width: 750px;
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+.testmoinal strong{
+	font-size: 20px;
+	color: #6ccfef;
+}
+
+
+.my-team{
+	min-height: 450px;
+	background: url('../image/face_smile_girl_look_81559_1280x900.jpg')no-repeat center center fixed;
+	background-size: cover;
+	margin-bottom: 50px;
+	margin-top: 80px;
+}
+.my-team .header-data{
+	margin-top: 50px;
+	margin-bottom: 140px;
+	color :#a2a2a2;
+}
+.my-team .header-data h3{
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.my-team .mohamed-box{
+	width: 324px;
+	height: 350px;
+	position: relative;
+	background-color: #fff;
+	float: left;
+	padding-top: 70px;
+	margin-bottom: 40px;
+	border-radius: 3px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.my-team .mohamed-box p{
+	width: 300px;
+	text-align: center;
+	color: #999;
+	padding-top: 15px;
+}
+
+
+.my-team .mohamed-box div{
+	padding-top: 15px;
+}
+
+
+.my-team .mohamed-box div i{
+	font-size: 24px;
+	margin-left: 8px;
+	margin-right: 8px;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+
+
+.my-team .mohamed-box img{
+	position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -55px;
+    left: 20px;
+    box-shadow: -1px 5px 8px #5f5a5a;
+
+}
+.projects{
+	margin-bottom: 50px;
+}
+.projects .card{
+	width: 310px;
+	float: left;
+	
+}
+
+.projects .controll-mix{
+	margin-bottom: 20px;
+}
+
+.projects .controll-mix button{
+	padding: 7px 10px;
+    border: 2px solid #6ccfef;
+    background: #fff;
+    margin: 0px 5px 0px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.custom-controll{
+	background: #6ccfef !important;
+	color: #fff; 
+}
+
+
+.connect
+{
+    background: url(../image/father-1633655_960_720.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 400px;
+    color: #ddd;   
+}
+
+.connect .my-form
+{
+    background: rgba(9,9,9,.7);
+    min-height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.connect .my-form p
+{
+    margin-bottom: 50px;   
+}
+
+.connect .my-form textarea
+{
+    height: 108px;
+    min-height: 108px;
+    max-height: 108px;
+    min-width: 550px;
+    max-width: 550px;
+}
+
+.connect .my-form textarea,
+.connect .my-form input
+{
+    border: none;
+    background: rgba(82,78,78,.4);
+   	color: #ddd;
+}
+
+footer
+{
+	    background-color: #151515;
+	    padding-top: 40px;
+	    margin-bottom: none;
+}
+
+
+footer a
+{
+	padding-right: 100px;
+	color: #5b5b5b;
+}
+
+footer a:nth-of-type(5)
+{
+	padding-right: 0px;
+}
+
+footer p
+{
+	padding-top: 30px;
+	color: #616161;
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+
+
+/*
+	signup.php
+*/
+
+.register-card{
+	margin-top: 60px;
+}
+
+
+.register-card h3{
+	font-weight: 700;
+	margin-top: 30px;
+	text-align: center;
+	font-family: Roboto Slab,Times New Roman,serif;
+}
+
+#profile{
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+	about.php
+*/
+
+.slider{
+	padding-top: 200px;
+	height: 690px;
+	background: url('../images/002.jpg')no-repeat center center;
+	background-attachment: fixed;
+	transform: translate3d(0px,0px,0px);
+	background-size: cover;
+
+}
+.slider h1{
+	font-weight: 900;
+	margin-bottom: 60px;
+}
+
+.slider p{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	color: #a2a2a2;
+}
+
+
+.main-reside{
+	margin: -60px 30px 0;
+	border-radius: 6px;
+	box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+	background: #fff;
+    position: relative;
+    padding-top: 80px;
+    z-index: 3;
+    	
+}
+
+.myserv{
+	margin-top: 40px;
+	margin-bottom: 130px;
+}
+.myserv h6{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #3c4858;
+}
+.myserv p{
+	color: #999;
+	line-height: 1.8;
+}
+.myserv i{
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	line-height: 140px;
+	border-radius: 50%;
+	border-width: 3px;
+	border-style: solid;
+}
+
+
+.about-ourteam h3{
+	margin-bottom: 60px;
+	font-weight: bold;
+}
+
+.about-ourteam .name{
+	margin-bottom: 20px;
+}
+
+.about-ourteam .member{
+    width: 636px;
+    float: left;
+    margin-bottom: 50px;
+    
+    
+}
+
+.member-one{
+	margin-right: 68px;
+    margin-left: -90px;
+}
+.member-two{
+	margin-right: -200px;
+}
+
+.about-ourteam .member img{
+	width: 195px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 6px 12px 12px 0px #bdb3b3;
+    float: left;
+}
+
+
+.about-ourteam .member div{
+	float: left;
+	margin-left: 15px;
+	text-align: center;
+	width: 425px;
+	padding-top: 30px;
+}
+
+.about-ourteam .member div p{
+	color: #999;
+	margin-top: 20px;
+}
+
+.about-ourteam .member div i{
+	margin-right: 15px;
+	font-size: 20px;
+}
+.about-ourteam .member div h5{
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+
+
+
+
+.about-footer{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 40px;
+
+}
+
+
+.about-footer a{
+	text-decoration: none;
+	margin-right: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.about-footer p{
+	
+	font-size: 18px;
+	color: #666;
+}
+
+
+
+
+/*
+faq.php
+*/
+.faq-slider{
+	padding-top: 200px;
+	height: 690px;
+	background: url('../images/star_relief_planet_space_94536_1280x900.jpg')no-repeat center center;
+	background-attachment: fixed;
+	transform: translate3d(0px,0px,0px);
+	background-size: cover;
+
+}
+
+.faq-slider h1{
+	font-weight: 900;
+	margin-bottom: 60px;
+	color: #eee;
+}
+
+.faq-slider p{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	color: #a2a2a2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ploto-question
+{
+	overflow: hidden;
+	margin-top: 70px;
+}
+
+.ploto-question a{
+	text-decoration: none;
+}
+.faq-question
+{
+	float: right;
+	width: 500px;
+}
+
+
+.ploto-question .faq-data
+{
+	float: left;
+	width: 400px;
+		
+}
+
+.faq-data h3
+{
+	margin-top: -2px;
+}
+
+.faq-data p
+{
+	
+	line-height: 2.5;
+    font-size: 16px;
+    color: #635858;
+}
+.faq-question .panel-heading a.collapsed:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e080";
+    float: right;
+}
+
+.faq-question .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+}
+
+
+.panel-default>.panel-heading 
+{
+	background-color: #999;
+	color: #fff;
+}
+
+
+/*
+	login.php
+*/
+
+.login-box{
+	background: #fff;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 140px;
+	padding-top: 140px;
+	padding-bottom: 50px;
+	border-radius: 6px;
+	position: relative;
+}
+
+.login-box .cokkie-box{
+	box-shadow: 0 5px 20px 0 rgba(0,0,0,.2), 0 13px 24px -11px rgba(156,39,176,.6);
+    background: linear-gradient(60deg,#6ccfef,#7b1fa2);
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    height: 140px;
+    width: 300px;
+    position: absolute;
+    top: -43px;
+    left: 50px;
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.login-box .cokkie-box img{
+	width: 55px;
+    height: 55px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+
+.login-box form{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.login-box form button{
+	color: #6ccfef;
+	background: none;
+	border:none;
+	font-weight: bold;
+	width: 365px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.custom-login{
+	position: relative;
+	bottom: -50px;
+}
+
+
+
+
+/*
+	freelancer-views
+	start.php
+*/
+.start-image{
+	width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+    top: -94px;
+    left: 651px;
+}
+
+.profile-data{
+	width: 400px;
+    position: absolute;
+    right: 50px;
+    top: 110px;
+}
+
+.profile-icon{
+	
+	font-size: 50px;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+
+.profile-icon i{
+	margin-right: 35px;
+	cursor: pointer;
+	transition: all 1s ease;
+	padding:20px;
+	border-radius: 8px;  
+}
+.profile-icon i:hover{
+	background: #6ccfef;
+	color: #fff;
+	
+}
+
+.profile-icon .profile-icon-active{
+	background: #6ccfef;
+	color: #fff;
+}
+
+#add-job{
+	margin-left: 420px;
+	margin-top: 50px;
+}
+.profile-avaiablejobs{
+	position: absolute;
+	left: 100px;
+	top: 530px;
+}
+
+
+.profile-avaiablejob{
+
+}
+
+.profile-avaiablejob span {
+	margin-right: 40px;
+}
+
+
+
